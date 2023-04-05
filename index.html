@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Fatwa -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator Web</title>
+</head>
+<body>
+
+  <div class='container'>
+    <a  href="index.html"><button class="kembali">Refresh</button></a>
+<!-- Bagian Awal Screen -->
+
+      <input id="num-value" type='text' class="screen" value='0' disabled></input>
+
+<!-- Bagian Akhir Screen -->
+
+<!-- Bagian Awal TABEL TOMBOL -->    
+    <table class='cal-keys'>
+    <tr>
+      <td><input type="button" class="all-clear" value="AC" ></td>
+      <td><input type="button" class="delete" value="DEL" </td>
+      <td><input type="button" class="operator" value="%" </td>
+      <td><input type="button" class="operator" value="/" </td>
+    </tr>
+      
+    <tr>
+      <td><input type="button" class="number" value="7" </td>
+      <td><input type="button" class="number" value="8" </td>
+      <td><input type="button" class="number" value="9" </td>
+      <td><input type="button" class="operator" value="*" </td>
+    </tr>
+      
+    <tr>
+      <td><input type="button" class="number" value="4" </td>
+      <td><input type="button" class="number" value="5" </td>
+      <td><input type="button" class="number" value="6" </td>
+      <td><input type="button" class="operator" value="-" </td>
+    </tr>
+      
+    <tr>
+      <td><input type="button" class="number" value="1" </td>
+      <td><input type="button" class="number" value="2" </td>
+      <td><input type="button" class="number" value="3" </td>
+      <td><input type="button" class="operator" value="+" </td>
+    </tr>
+
+    <tr class='grid-cell'>
+      <td colspan='2'><input type="button" class="number" value="0" </td>
+      <td><input type="button" class="decimal" value="." </td>
+      <td><input type="button" class="equal" value="="</td>
+    </tr>
+    </table>
+    
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
